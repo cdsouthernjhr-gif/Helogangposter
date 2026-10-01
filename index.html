@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Borang Maklum Balas Perkhidmatan – Helogang</title>
+  <meta name="description" content="Bantu kami menambah baik perkhidmatan Public Phone & MyPelajar. Tekan poster untuk terus ke borang.">
+  <meta name="theme-color" content="#ff8a00">
+
+  <!-- Open Graph / WhatsApp preview.
+       GANTIKAN https://YOUR-DOMAIN.example dengan URL sebenar selepas deploy (mesti URL penuh, https). -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="📲 Tekan poster ini untuk isi Borang Maklum Balas">
+  <meta property="og:description" content="Bantu Helogang menambah baik perkhidmatan Public Phone & MyPelajar. Tekan untuk terus ke borang.">
+  <meta property="og:image" content="https://YOUR-DOMAIN.example/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://YOUR-DOMAIN.example/">
+  <meta property="og:locale" content="ms_MY">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="📲 Tekan poster ini untuk isi Borang Maklum Balas">
+  <meta name="twitter:description" content="Bantu Helogang menambah baik perkhidmatan Public Phone & MyPelajar.">
+  <meta name="twitter:image" content="https://YOUR-DOMAIN.example/assets/og-image.jpg">
+
+  <link rel="icon" href="assets/helogang-logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Seluruh poster = satu pautan HTML biasa (berfungsi walaupun JavaScript gagal) -->
+  <a id="poster" class="poster" href="https://docs.google.com/forms/d/e/1FAIpQLSdIWbQHpjLlvTuCH0X7gv6DH2ZARXH3KQwr7KA5pZM1qn3JqA/viewform"
+     aria-label="Tekan poster untuk membuka Borang Maklum Balas Perkhidmatan">
+
+    <div class="bg" aria-hidden="true">
+      <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+      <span class="dots"></span>
+    </div>
+
+    <!-- ATAS -->
+    <header class="top">
+      <div class="toprow">
+        <div class="brandchip"><img src="assets/helogang-logo.png" alt="Helogang"></div>
+        <p class="kicker">Borang Maklum Balas<br>Perkhidmatan</p>
+      </div>
+      <h1>Suara Anda<br><span>Sangat Penting!</span></h1>
+      <p class="sub">Bantu kami menambah baik perkhidmatan <b>Public Phone</b> &amp; <b>MyPelajar</b> untuk sekolah anda.</p>
+    </header>
+
+    <!-- TENGAH -->
+    <section class="stage" aria-hidden="true">
+      <div class="glow"></div>
+      <div class="phone float">
+        <div class="notch"></div>
+        <div class="screen">
+          <div class="f-head"><i></i><b>Borang Maklum Balas</b></div>
+          <div class="f-row"><em>Nama Sekolah</em><u></u></div>
+          <div class="f-row"><em>Negeri</em><u class="short"></u></div>
+          <div class="f-row"><em>Jenis Perkhidmatan</em>
+            <div class="opts"><span class="on">📞 Public Phone</span><span>🎓 MyPelajar</span></div>
+          </div>
+          <div class="stars">★★★★★</div>
+          <div class="f-btn">Hantar</div>
+        </div>
+      </div>
+      <div class="chip c1 float2">📞 Public Phone</div>
+      <div class="chip c2 float3">🎓 MyPelajar</div>
+      <div class="chip c3 float2">⭐ Maklum Balas</div>
+      <div class="tap">👆</div>
+    </section>
+
+    <!-- CTA -->
+    <div class="cta-wrap">
+      <div class="cta" role="presentation">
+        <span class="cta-text">📲 TEKAN DI SINI<br>UNTUK ISI BORANG</span>
+        <span class="shine"></span>
+      </div>
+    </div>
+
+    <!-- BAWAH -->
+    <footer class="bottom">
+      <p class="hint">Tekan poster untuk terus ke borang</p>
+      <div class="foot-row">
+        <img class="flogo" src="assets/helodotcom-logo.png" alt="Helodotcom">
+        <span class="fallback">Buka Borang ›</span>
+      </div>
+    </footer>
+  </a>
+
+  <noscript><style>.poster{cursor:pointer}</style></noscript>
+  <script src="script.js"></script>
+</body>
+</html>
